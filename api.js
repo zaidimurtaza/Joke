@@ -30,7 +30,7 @@ console.log(getAPIButton)
 
 
 APISubmitName.addEventListener('click',()=>{
-    fetch(`http://127.0.0.1:5000/API/Jokes/m`)
+    fetch(`http://192.168.1.40:5000/API/Jokes/m`)
     .then(response => response.json())
     .then(data => {
         // Display the data in the HTML
