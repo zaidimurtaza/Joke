@@ -1,0 +1,65 @@
+.input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(188, 238, 135);
+}
+h1{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.container{
+    text-align: center;
+}
+.l2{margin-left:40px;
+    font-family: Arial, Helvetica, sans-serif;}
+.l1{margin-left: 400px;
+vertical-align: top;
+border-radius: 50px;
+font-family: Arial, Helvetica, sans-serif;}
+
+h1{
+    text-align: center;
+}
+.div2{
+    text-align: center;
+    margin-top: 50px;
+}
+#APISubmitName{
+    display: inline-block;
+}
+body{
+    background-color: rgb(194, 247, 239);}
+.div1{
+    padding: 0px;
+    margin-right: 190px;
+    margin-left: 190px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(154, 255, 173);
+    border-radius: 14px;
+
+}
+#APISubmitName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transition: 0.6s;
+    border: 2px solid rgb(25, 162, 231);
+    border-radius: 5px;
+    font-weight: bold;
+    
+    
+
+   
+}
+#APISubmitName:hover{
+    background-color: rgb(25, 162, 231);
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+}
+#APISubmitName:active{
+    opacity: 0.3;
+}
+#NameResult{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}   
